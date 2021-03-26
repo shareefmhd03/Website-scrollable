@@ -41,3 +41,12 @@
       margin-top: 3 rem;
   }
   
+
+.error-message{
+    font-size: small;
+    font-family: sans-serif;
+    
+}
+.label-area{
+    font-size: small;
+}
