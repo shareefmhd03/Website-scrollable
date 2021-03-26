@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Shareef</title>
+     <!-- Bootstrap CSS-->
+     <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+     <!-- Google fonts-->
+     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,800&amp;display=swap">
+     <!-- theme stylesheet-->
+     <link rel="stylesheet" href="css/style.blue.css" id="theme-stylesheet">
+     <!-- Custom stylesheet - for your changes-->
+     <link rel="stylesheet" href="css/custom.css">
+     <!-- Favicon-->
+     <link rel="shortcut icon" href="./img/photo_2021-03-22 14.22.59.jpeg">
+     <script src="./js/demo.js"></script>
+     <!-- Tweaks for older IEs--><!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script><![endif]-->
+   <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
+
+</head>
+<body>
+      <!-- navbar-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg fixed-top">
+          <div class="container"><a class="navbar-brand" href="#"><img src="" alt="" width="45"></a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link link-scroll" href="../index.html">Home <span class="sr-only">(current)</span></a></li>
+                <li class="nav-item"><a class="nav-link link-scroll" href="./about.html">About</a></li>
+                <li class="nav-item"><a class="nav-link link-scroll" href="./Expertise.html">Expertise</a></li>
+                <li class="nav-item"><a class="nav-link link-scroll" href="./Education.html">Education</a></li>
+                <li class="nav-item"><a class="nav-link link-scroll" href="./Experiance.html">Experience</a></li>
+                <li class="nav-item"><a class="nav-link link-scroll active" href="./contact.html">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <!-- contact Section        -->
+    <section class="bg-light" id="contact">
+        <div class="container">
+          <header class="mb-5 pb-4">
+            <p class="font-weight-bold text-primary text-uppercase letter-spacing-3">Call me, maybe.</p>
+            <h2 class="text-uppercase lined">Contact</h2>
+          </header>
+          <div class="row">
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0"><a class="px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor" href="https://www.google.co.in/maps/place/Geo+Infopark/@10.0064486,76.3602584,17z/data=!3m1!4b1!4m5!3m4!1s0x3b080c9d9f66f399:0xf4d71a8aef6a25b5!8m2!3d10.0064433!4d76.3624471" target="_blank"> <i class="fas fa-map-marker-alt fa-2x mb-4"></i>
+              
+                 <h4 class="contact-item-title h5 text-uppercase">Location</h4>
+                <p class="text-small mb-0">Infopark, Kochi</p></a>
+              
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+              <div class="px-4 py-5 text-center contact-item shadow-sm"><i class="fas fa-mobile fa-2x mb-4"></i>
+                <h4 class="contact-item-title h5 text-uppercase">Phone</h4>
+                <p class="text-small mb-0">+91 9605511369</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0"><a target="_blank" class="px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor" href="www.example.com" ><i class="fas fa-globe-americas fa-2x mb-4"></i>
+                <h4 class="contact-item-title h5 text-uppercase">Website</h4>
+                <p class="text-small mb-0">www.example.com</p></a></div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-lg-0"><a class="px-4 py-5 text-center contact-item shadow-sm d-block reset-anchor" href="mailto:shareef.mk03@gmail.com"><i class="fas fa-envelope fa-2x mb-4"></i>
+                <h4 class="contact-item-title h5 text-uppercase">Email</h4>
+                <p class="text-small mb-0">shareef.mk03@gmail.com</p></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-light " id="" >
+          <h1 style="text-align: center;">Send a message</h1>
+        <div class="row col-md-12 contactForm">
+        <div class="container contactForm ">
+          <header class="mb-5">
+             <!-- <form id="contactForm"  action="" >      
+                <input class="inputField" type="text" name="fname" id="fname" pattern="[a-zA-Z\s]+" placeholder="Name" required><br>
+                <input class="inputField" type="email" name="emailAddress" id="emailAddress"  placeholder="Email" required> <br>
+                <input class="inputField" type="text" name="phone" id="phone" placeholder="Phone Number"><br>
+                <textarea class="inputField" name="textArea" id="textArea" cols="30" rows="10"></textarea> <br>
+                <input type="submit">
+              </form>-->
+
+              <form id="contactForm" class="contact-area mx-auto">
+
+                <div class="form-group">
+                  <label for="contact-name">Name</label>
+                  <input type="text" class="form-control text-area mx-auto" id="contact-name" name="name"  placeholder="Name" onblur='validateName()' required>
+                  <span class='error-message' id='name-error'></span>
+                </div>
+      
+                <div class="form-group">
+                  <label for="contact-phone">Phone Number</label>
+                  <input type="tel" class="form-control text-area mx-auto" id="contact-phone" name="phone" placeholder="Phone" onblur='validatePhone()' required>
+                  <span class='error-message' id='phone-error'></span>
+                </div>
+      
+                <div class="form-group">
+                  <label for="contact-email">Email address</label>
+                  <input type="email" class="form-control text-area mx-auto" id="contact-email" name="email" placeholder="Email" onblur='validateEmail()' onkeyup="validateEmail()" required>
+                  <span class='error-message' id='email-error'></span>
+                </div>   
+      
+                <div class="form-group">
+                  <label for='contactMessage'>Your Message</label>
+                  <textarea class="form-control text-area mx-auto" rows="5" id='contact-message'  name='message'  placeholder="Message"  required></textarea>
+                  <span class='error-message' id='message-error'></span>
+                </div>
+      
+              <button onclick=' return validateForm()' class="btn btn-default button-submit">Submit</button>
+              <span class='error-message' id='submit-error'></span>
+            </form>
+              
+            </div>
+            </div>
+            
+            </section>
+
+      <!-- Footer-->
+    <footer>
+        <div class="container text-center section-padding-y">
+          <div class="row px-4">
+            <div class="col-lg-7 mx-auto">
+              <h2 class="text-uppercase mb-0">Mohammed Shareef</h2>
+              <h6 class="text-primary text-uppercase mb-0 letter-spacing-3">Web Developer</h6>
+              <p class="text-muted my-4"></p>
+              <ul class="list-inline mb-0">
+                <li class="list-inline-item"><a class="social-link" href="https://www.facebook.com/shareifmsm" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                <!--<li class="list-inline-item"><a class="social-link" href="#"><i class="fab fa-twitter"></i></a></li>-->
+                <li class="list-inline-item"><a class="social-link" href="https://www.linkedin.com/in/mohammed-shareef-1b97591a0/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+                <li class="list-inline-item"><a class="social-link" href="https://www.instagram.com/sharief_mhd/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="copyrights px-4">
+          <div class="container py-4 border-top text-center">
+            <p class="mb-0 text-muted py-2">&copy; All rights reserved. <a href="https://bootstraptemple.com"></a> </p>
+          </div>
+        </div>
+      </footer>
+      <!-- JavaScript files-->
+      <script src="vendor/jquery/jquery.min.js"></script>
+      <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="js/front.js"></script>
+      <!-- FontAwesome CSS - loading as last, so it doesn't block rendering-->
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+      <script>
+      $("#contactForm").submit((e)=>{
+        e.preventDefault()
+        $.ajax({
+            url:"https://script.google.com/macros/s/AKfycbzw6Uk_ZXuW_RLsMwEcAqh56aSwC1dnIPMy9ZKhRw/exec",
+            data:$("#contactForm").serialize(),
+            method:"post",
+            success:function (response){
+                alert("Form submitted successfully")
+                window.location.reload()
+                //window.location.href="https://google.com"
+            },
+            error:function (err){
+                alert("Something Error")
+    
+            }
+        })
+    })</script>
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    </body>
+    </html>

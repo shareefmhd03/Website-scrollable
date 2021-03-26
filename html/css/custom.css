@@ -1,0 +1,43 @@
+.contact-area{
+    padding-top: 1rem;
+    text-align: center;
+    width: 35rem;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 1px #2b90d9;
+    padding-bottom: 1rem;
+    
+}
+
+.text-area{
+    border-radius: 9px;
+    width: 30rem;
+}
+.button-submit {
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    width: 8rem;
+    background:#39a8f1;
+    border-radius:5px;
+    border:0;
+    cursor:pointer;
+    color:white;
+    font-size:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    transition: all 0.3s;
+    margin-top:-4px;
+    font-weight:200;
+  }
+  .button-submit:hover { background:#94d8ec; }
+
+  .about-img{
+      width: 20rem;
+      height: 20rem;
+      border: 2px solid;
+      border-color: #2b90d9;
+      border-radius: 8px;
+  }
+  .progress{
+      margin-top: 3 rem;
+  }
+  
